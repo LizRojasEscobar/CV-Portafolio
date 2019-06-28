@@ -1,9 +1,11 @@
+
 body {
   background: #fff;
   color: #798a9a;
   line-height: 1.7;
   font-size: 16px;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
@@ -104,7 +106,8 @@ a {
     -ms-transform: translateY(-100%);
     transform: translateY(-100%); }
     .site-navbar.scrolled.bg-light {
-      background: #fff !important; }
+      background: #fff !important;
+   }
     .site-navbar.scrolled .navbar-brand {
       display: inline-block;
       font-size: 18px;
@@ -268,7 +271,8 @@ a {
 .btn {
   border-radius: 100px;
   text-transform: uppercase;
-  letter-spacing: .1em; }
+  letter-spacing: .1em;
+  margin: 5px; }
   .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -277,37 +281,6 @@ a {
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
       background: #fff; }
-
-.progress {
-  overflow: visible;
-  margin-bottom: 26px;
-  height: 4px; }
-  .progress .progress-bar {
-    background-color: #08bdc4;
-    position: relative;
-    border-radius: 4px; }
-    .progress .progress-bar span {
-      background-color: #08bdc4;
-      position: absolute;
-      bottom: -20px;
-      font-size: 10px;
-      line-height: 10px;
-      padding: 2px 3px 2px 4px;
-      right: -1.4em;
-      border-radius: 2px; }
-    .progress .progress-bar span:after {
-      bottom: 100%;
-      left: 50%;
-      border: solid transparent;
-      content: " ";
-      height: 0;
-      width: 0;
-      position: absolute;
-      pointer-events: none;
-      border-color: rgba(255, 255, 255, 0);
-      border-bottom-color: #08bdc4;
-      border-width: 5px;
-      margin-left: -5px; }
 
 .skill h3 {
   font-size: 18px; }
@@ -611,4 +584,5 @@ a {
     .icon-javascript:before {
       content: "\e901";
     }
-  
+    .image200 {
+      width: 200px!important ;}
