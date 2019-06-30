@@ -446,7 +446,10 @@ a {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
-
+.res-all{
+  padding-left: 50px;
+  padding-right: 30px;
+}
 .resume-item {
   padding: 40px;
   background: #fff;
